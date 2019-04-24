@@ -76,8 +76,8 @@ header {/*display: flex;
 	nav{
 		display: flex;
 		justify-content:space-evenly;
-		flex-wrap: wrap;
 		align-items: center;
+
 		padding: 20px;
 		background-color: rgb(203, 227, 247);
 		border-bottom: 2px solid black;
@@ -102,6 +102,11 @@ section{
 	/* margin: 0px; */
 }
 
+.globe{
+	width: 40%;
+	height: 40%;
+}
+
 .button {
 font-size: 20px;
 font-family: sanserif;
@@ -117,11 +122,11 @@ margin: 50px;
 }
 
 .box1{
-	margin: 40px 10px;
+	margin: 20px 20px;
 }
 
 .box2{
-	margin: 40px 10px;
+	margin: 20px 20px;
 }
 
 main .middle-img{
@@ -134,15 +139,15 @@ main .middle-img{
 }
 
 .box3{
-	padding: 5px 10px;
+	padding: 5px 20px;
 	width: 250px;
 }
 .box4{
-	padding: 5px 10px;
+	padding: 5px 20px;
 	width: 250px;
 }
 .box5{
-	padding: 5px 10px;
+	padding: 5px 20px;
 	width: 250px;
 }
 
