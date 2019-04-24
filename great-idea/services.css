@@ -63,104 +63,48 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-body {
-	width: 900px;
-	margin: auto;
+/* My CSS*/
+
+nav {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
 }
-
-header {/*display: flex;
-	justify-content:space-around;flex-wrap: wrap; */
-	margin: 20px;
-	}
-
-	nav{
-		display: flex;
-		justify-content:space-evenly;
-		flex-wrap: wrap;
-		align-items: center;
-		padding: 20px;
-		background-color: rgb(203, 227, 247);
-		border-bottom: 2px solid black;
-	}
 
 nav a{
-	color: gray;
+  color: gray;
 }
 
-
-section{
+.services-header-img{
 	display: flex;
+	/* width: 70%; */
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	padding: 30px 10px;
+	border-bottom: 1px solid black;
+}
+.intro h1{
+	font-size: 30px;
+}
+
+.row1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 20px;
+	border 1px solid black;
+}
+/* .boxes{
+	background color: blue;
+} */
+
+.button{
+	border: 1px solid black;
+	/* width: 40px; */
 	justify-content: center;
-
-	font-size: 90px;
-	font-family:'Bangers';
-	/* margin: 60px 100px; */
-} 
-
-.big{
-	text-align: center;
-	/* margin: 0px; */
-}
-
-.button {
-font-size: 20px;
-font-family: sanserif;
-padding: 10px;
-border: 1px solid black;
-margin: 50px;
-
-}
-
-
-	.holder{ 
-		display: flex;
-}
-
-.box1{
-	margin: 40px 10px;
-}
-
-.box2{
-	margin: 40px 10px;
-}
-
-main .middle-img{
-	margin: 15px;
-}
-
-.lowerblock {
-	display: flex;
-	justify-content: space-between;
-}
-
-.box3{
-	padding: 5px 10px;
-	width: 250px;
-}
-.box4{
-	padding: 5px 10px;
-	width: 250px;
-}
-.box5{
-	padding: 5px 10px;
-	width: 250px;
-}
-
-span .cursive{font-family: 'Monserrat';
-}
-
-footer{
-	margin: 40px 0px 0px 10px;
-	border-top: 1px solid black;
-	padding: 10px 10px;
-	}
-
-footer .cursive{
-	font-family: 'Monserrat';
-	margin: 20px 0px;
-}
-
-.copyright {
-	margin-top: 60px;
-	text-align:center;
 }
