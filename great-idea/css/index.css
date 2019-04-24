@@ -68,36 +68,23 @@ body {
 	margin: auto;
 }
 
-header {
-		/* border-bottom: 1px solid black; */
-		margin: 10px 0;
-		padding: 0px 0;
+header {/*display: flex;
+	justify-content:space-around;flex-wrap: wrap; */
+	margin: 20px;
 	}
 
 	nav{
 		display: flex;
 		justify-content:space-evenly;
 		flex-wrap: wrap;
-		padding: 10px;
+		align-items: center;
+		padding: 20px;
 		background-color: rgb(203, 227, 247);
-		overflow: hidden;
 		border-bottom: 2px solid black;
 	}
 
 nav a{
-	display: flex;
-	justify-content:space-evenly;
-	align-items: center;
-	flex-wrap: wrap;
 	color: gray;
-	/* margin: 10px 10px; */
-}
-
-.logo{
-	display: flex;
-	justify-content:space-evenly;
-	align-items: center;
-	flex-wrap: wrap;	
 }
 
 
@@ -124,35 +111,31 @@ margin: 50px;
 
 }
 
-.globe{display:flex;
-	/* width: 300px; */
-}
 
-main {
+main .box1{
 	display:flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: flex-end;
+	justify-content: space-around; */
+	/* /* align-items: flex-end; */
+}
+
+main{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around; */
+	/* /* align-items: flex-end; */
 }
 
 .box1{
-	/* display:flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: flex-start; */
 	/* margin: 40px 10px; */
 	/* text-align: left; */
 	/* width: 410px; */
 }
 .box2{
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: flex-start; */
 	/* margin: 40px 5px; */
 	/* width: 410px; */
 }
-main .middle-img{
+main .blueimage{
 	margin-bottom: 30px;
 }
 
