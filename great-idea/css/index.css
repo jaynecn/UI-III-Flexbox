@@ -63,4 +63,109 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 900px;
+	margin: auto;
+}
+
+header {/*display: flex;
+	justify-content:space-around;flex-wrap: wrap; */
+	margin: 20px;
+	}
+
+	nav{
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+
+		padding: 20px;
+		background-color: rgb(203, 227, 247);
+		border-bottom: 2px solid black;
+	}
+
+nav a{
+	color: gray;
+}
+
+
+section{
+	display: flex;
+	justify-content: center;
+
+	font-size: 90px;
+	font-family:'Bangers';
+	/* margin: 60px 100px; */
+} 
+
+.big{
+	text-align: center;
+	/* margin: 0px; */
+}
+
+.globe{
+	width: 40%;
+	height: 40%;
+}
+
+.button {
+font-size: 20px;
+font-family: sanserif;
+padding: 10px;
+border: 1px solid black;
+margin: 50px;
+
+}
+
+
+	.holder{ 
+		display: flex;
+}
+
+.box1{
+	margin: 20px 20px;
+}
+
+.box2{
+	margin: 20px 20px;
+}
+
+main .middle-img{
+	margin: 15px;
+}
+
+.lowerblock {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box3{
+	padding: 5px 20px;
+	width: 250px;
+}
+.box4{
+	padding: 5px 20px;
+	width: 250px;
+}
+.box5{
+	padding: 5px 20px;
+	width: 250px;
+}
+
+span .cursive{font-family: 'Monserrat';
+}
+
+footer{
+	margin: 40px 0px 0px 10px;
+	border-top: 1px solid black;
+	padding: 10px 10px;
+	}
+
+footer .cursive{
+	font-family: 'Monserrat';
+	margin: 20px 0px;
+}
+
+.copyright {
+	margin-top: 60px;
+	text-align:center;
+}
