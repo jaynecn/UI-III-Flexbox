@@ -75,7 +75,7 @@ header {/*display: flex;
 
 	nav{
 		display: flex;
-		justify-content:space-evenly;
+		justify-content: space-between;
 		align-items: center;
 
 		padding: 20px;
@@ -85,6 +85,7 @@ header {/*display: flex;
 
 nav a{
 	color: gray;
+	text-decoration: none;
 }
 
 
