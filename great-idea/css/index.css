@@ -51,6 +51,14 @@ table {
 * {
     box-sizing: border-box;
 }
+/* General Styles */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 html, body {
     height: 100%;
@@ -63,95 +71,104 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-body {
+/* Your code starts here! */
+
+.container {
 	width: 900px;
 	margin: auto;
 }
-
-header {/*display: flex;
-	justify-content:space-around;flex-wrap: wrap; */
-	margin: 20px;
-	}
-
-	nav{
+header {
 		display: flex;
-		justify-content:space-evenly;
-		align-items: center;
-
-		padding: 20px;
-		background-color: rgb(203, 227, 247);
-		border-bottom: 2px solid black;
+		justify-content: space-between;
 	}
 
 nav a{
 	color: gray;
+	margin: 10px;
+	text-decoration: none;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 20px 40px 0px;
+	padding: 10px 0px;
+	background-color: rgb(203, 227, 247);
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	position: fixed;
+	top: 0;
+	width: 900px;
+}
+
+.logo{
+	margin-right: 20px;
 }
 
 
 section{
+	width: 100%;
 	display: flex;
 	justify-content: center;
-
-	font-size: 90px;
+	align-items: center;
+	font-size: 80px;
 	font-family:'Bangers';
-	/* margin: 60px 100px; */
-} 
+	margin: 70px 0px 0px 30px;
+	padding: 20px 0px;
+	text-align: center;
+}
 
 .big{
 	text-align: center;
-	/* margin: 0px; */
-}
-
-.globe{
-	width: 40%;
-	height: 40%;
 }
 
 .button {
-font-size: 20px;
-font-family: sanserif;
-padding: 10px;
+	width: auto;
+	display: inline-block;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px 40px;
 border: 1px solid black;
-margin: 50px;
+box-sizing: border-box;
+margin: 40px 0px;
+}
+
+.globe{
+	width: 360px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
 
 }
 
-
-	.holder{ 
-		display: flex;
+.holder {
+	display: flex;
 }
 
-.box1{
-	margin: 20px 20px;
-}
-
-.box2{
-	margin: 20px 20px;
+.div-main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 30px 10px;
+	text-align: left;
+	width: 410px;
 }
 
 main .middle-img{
-	margin: 15px;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
-.lowerblock {
+span {display: flex;
+}
+
+.div-span{
 	display: flex;
-	justify-content: space-between;
-}
-
-.box3{
-	padding: 5px 20px;
+	flex-direction: column;
+	margin: 0px 20px;
 	width: 250px;
-}
-.box4{
-	padding: 5px 20px;
-	width: 250px;
-}
-.box5{
-	padding: 5px 20px;
-	width: 250px;
-}
-
-span .cursive{font-family: 'Monserrat';
 }
 
 footer{
@@ -161,8 +178,11 @@ footer{
 	}
 
 footer .cursive{
-	font-family: 'Monserrat';
 	margin: 20px 0px;
+}
+
+footer p {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .copyright {
